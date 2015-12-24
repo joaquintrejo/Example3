@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="jqm/css/jquery.mobile-1.4.5.min.css" />
+        
+    <script src="jqm/js/jquery-1.11.3.min.js"></script> 
+    <script src="jqm/js/jquery.mobile-1.4.5.min.js"></script>
+    
+</head>
+
+<body>
+    <div data-role="page" id="login">
+    	<div data-role="header" data-theme="a">        	
+            <h1> Login </h1>
+        </div>
+        <div data-role="content">
+            <a href="#page1" data-role="button" data-theme="b" data-transition="flip"> Login </a>
+    	</div>
+        <div data-role="footer" data-theme="a">
+        	<h2> Footer </h2>
+        </div>
+	</div>
+    
+    <div data-role="page" id="page1">
+    	<div data-role="header" data-theme="a">
+        	<h1> Page 1 </h1>
+            <div data-role="navbar">
+            	<ul>
+                	<li><a href="" class="ui-btn-active">1</a></li>
+                    <li><a href="#page2" data-transition="slide">2</a></li>
+                    <li><a href="#page3" data-transition="slide">3</a></li>
+                    <li><a href="#page4" data-transition="slide">4</a></li>
+                    <li><a href="#page5" data-transition="slide">5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+        	<div class="ui-grid-a">
+                <div class="ui-block-a">
+                	<a href="#confirm" data-role="button" data-theme="b"> Button 1 </a>
+                </div>
+                <div class="ui-block-b">
+                	<a href="#confirm" data-role="button" data-theme="a"> Button 2 </a>
+                </div>
+            </div>
+    	</div>
+        <div data-role="footer" data-theme="a" class="ui-bar" data-position="fixed" data-id="footer_fixed">
+        	<div data-role="controlgroup" data-type="horizontal">
+                <a href="#" data-icon="plus"> Add </a>
+                <a href="#" data-icon="delete"> Delete </a>
+            </div>
+        </div>
+	</div>
+    
+    <div data-role="page" id="page2">
+    	<div data-role="header" data-theme="a">
+        	<h1> Page 2 </h1>
+            <div data-role="navbar">
+            	<ul>
+                	<li><a href="#page1" data-rel="back">1</a></li>
+                    <li><a href="" class="ui-btn-active">2</a></li>
+                    <li><a href="#page3" data-transition="slide">3</a></li>
+                    <li><a href="#page4" data-transition="slide">4</a></li>
+                    <li><a href="#page5" data-transition="slide">5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set">
+                <div data-role="collapsible" data-collapsed="false">
+                    <h1>Content 1</h1>
+                    <h2>Subtitle</h2>
+                    <p>
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin                
+                    </p>
+                </div>
+                <div data-role="collapsible">
+                    <h1>Content 2</h1>
+                    <p>
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin                
+                    </p>
+                </div>
+                <div data-role="collapsible">
+                    <h1>Content 3</h1>
+                    <p>
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin                
+                    </p>
+                </div>
+                <div data-role="collapsible">
+                    <h1>Content 4</h1>
+                    <p>
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin
+                        joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin joaquin                
+                    </p>
+                </div>
+            </div>
+    	</div>
+        <div data-role="footer" data-theme="a" class="ui-bar" data-position="fixed" data-id="footer_fixed">
+        	<div data-role="controlgroup" data-type="horizontal">
+                <a href="#" data-icon="plus"> Add </a>
+                <a href="#" data-icon="delete"> Delete </a>
+            </div>
+        </div>
+	</div>
+    
+    <div data-role="page" id="page3">
+    	<div data-role="header" data-theme="a">
+        <h1> Page 3 </h1>
+            <div data-role="navbar">
+            	<ul>
+                	<li><a href="#page1" data-rel="back">1</a></li>
+                    <li><a href="#page2" data-rel="back">2</a></li>
+                    <li><a href="" class="ui-btn-active">3</a></li>
+                    <li><a href="#page4" data-transition="slide">4</a></li>
+                    <li><a href="#page5" data-transition="slide">5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+        	<h2>Content 1</h2>
+			<ul data-role="listview" data-inset="true">
+            	<li><a href="">Number 1</a><li>
+                <li>Number 2<li>
+                <li>Number 3<li>
+                <li>Number 4<li>
+                <li>Number 5<li>
+                <li>Number 7<li>
+                <li>Number 8<li>
+                <li>Number 9<li>
+            </ul>
+            
+            <h2>Content 2</h2>
+			<ul data-role="listview" data-inset="true">
+            	<li><a href="">Number 1</a><li>
+                <li>Number 2<li>
+                <li>Number 3<li>
+                <li>Number 4<li>
+                <li>Number 5<li>
+                <li>Number 7<li>
+                <li>Number 8<li>
+                <li>Number 9<li>
+            </ul>
+    	</div>
+        <div data-role="footer" data-theme="a" class="ui-bar" data-position="fixed" data-id="footer_fixed">
+        	<div data-role="controlgroup" data-type="horizontal">
+                <a href="#" data-icon="plus"> Add </a>
+                <a href="#" data-icon="delete"> Delete </a>
+            </div>
+        </div>
+	</div>
+    
+    <div data-role="page" id="page4">
+    	<div data-role="header" data-theme="a">
+        	<h1> Page 4 </h1>
+            <div data-role="navbar">
+            	<ul>
+                	<li><a href="#page1" data-rel="back">1</a></li>
+                    <li><a href="#page2" data-rel="back">2</a></li>
+                    <li><a href="#page3" data-rel="back">3</a></li>
+                    <li><a href="" class="ui-btn-active">4</a></li>
+                    <li><a href="#page5" data-transition="slide">5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-filter="true" data-filter-placeholder="Find">
+            	<li data-role="list-divider" data-theme="b">Programming languages</li>
+            	<li>
+                    <a href=""><img src="img/logo-app36.png" class="ui-li-icon"/>C++</a>
+                    <a href="">C++</a>
+                </li>
+                <li>
+                	<a href="">Java</a>
+                    <a href="">Java</a>
+                </li>
+                <li>
+                	<a href="">Php</a>
+                    <a href="">Php</a>
+                </li>
+                
+                <li data-role="list-divider" data-theme="b">Hypertext languages</li>
+                <li>
+                	<a href="">Html</a>
+                    <a href="">Html</a>
+                </li>
+                <li>
+                	<a href="">Css</a>
+                    <a href="">Css</a>
+                </li>
+                <li>
+                	<a href="">Javascript</a>
+                    <a href="">Javascript</a>
+                </li>
+                
+                <li data-role="list-divider" data-theme="b">Desings programs</li>
+                <li>
+                	<a href="">Photoshop</a>
+                    <a href="">Photoshop</a>
+                </li>
+                <li>
+                	<a href="">Fireworks</a>
+                    <a href="">Fireworks</a>
+                </li>
+                <li>
+                	<a href="">Flash</a>
+                    <a href="">Flash</a>
+                </li>
+            </ul>
+    	</div>
+        <div data-role="footer" data-theme="a" class="ui-bar" data-position="fixed" data-id="footer_fixed">
+        	<div data-role="controlgroup" data-type="horizontal">
+                <a href="#" data-icon="plus"> Add </a>
+                <a href="#" data-icon="delete"> Delete </a>
+            </div>
+        </div>
+	</div>
+    
+    <div data-role="page" id="page5">
+    	<div data-role="header" data-theme="a">
+        	<h1> Page 1 </h1>
+            <div data-role="navbar">
+            	<ul>
+                	<li><a href="#page1" data-rel="back">1</a></li>
+                    <li><a href="#page2" data-rel="back">2</a></li>
+                    <li><a href="#page3" data-rel="back">3</a></li>
+                    <li><a href="#page4" data-rel="back">4</a></li>
+                    <li><a href="#" class="ui-btn-active">5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+        	<form action="" method="post">
+            	<label for="name">Name:</label>
+                <input type="text" name="name" id="name" />
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" />
+                
+                <label for="description">Description:</label>
+                <textarea name="description" id="description"> </textarea>
+                
+                <fieldset data-role="controlgroup">
+                    <select name="countries" id="countries" data-native-menu="false">
+                        <option>Select country</option>
+                        <option value="1">Argentina</option>
+                        <option value="2">Bolivia</option>
+                        <option value="3">Colombia</option>
+                        <option value="4">Mexico</option>
+                        <option value="5">Peru</option>
+                    </select>
+                    
+                    <select name="countries" id="countries" data-native-menu="false">
+                        <option>Select country</option>
+                        <option value="1">Argentina</option>
+                        <option value="2">Bolivia</option>
+                        <option value="3">Colombia</option>
+                        <option value="4">Mexico</option>
+                        <option value="5">Peru</option>
+                    </select>
+                </fieldset>
+                
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" data-role="slider">
+                	<option value="m">M</option>
+                    <option value="f">F</option>
+                </select>
+            </form>
+    	</div>
+        <div data-role="footer" data-theme="a" class="ui-bar" data-position="fixed" data-id="footer_fixed">
+        	<div data-role="controlgroup" data-type="horizontal">
+                <a href="#" data-icon="plus"> Add </a>
+                <a href="#" data-icon="delete"> Delete </a>
+            </div>
+        </div>
+	</div>
+    
+    <div data-role="page" id="confirm">
+    	<div data-role="header" data-theme="a">        	
+            <h1> Logout </h1>
+        </div>
+        <div data-role="content">
+            <a href="#login" data-role="button" data-theme="b"> Yes </a>
+            <a href="#page2" data-role="button" data-theme="b" data-rel="back"> Cancel </a>
+    	</div>        
+	</div>
+    
+	
+    <!-- script -->
+    <!--<script src="js/jSignature.min.noconflict.js"></script>
+    <script>
+		$('#login_phone').click(function(){
+			function changePage() {
+				location.href = "#page2";
+			}			
+		});
+		
+		$('#signout1').click(function(){			
+			navigator.notification.confirm(
+				'Are you sure?',
+				onConfirm,
+				'Smith TracknGo',
+				['Yes','No']
+			 );
+		});
+	</script>-->
+</body>
+</html>
